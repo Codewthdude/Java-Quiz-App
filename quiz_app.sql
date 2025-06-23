@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS questions (
 
 -- Sample data
 INSERT INTO users (username, password, isAdmin) VALUES 
-('aashi', '202cb962ac59075b964b07152d234b70', false);  -- password: 123
+('Prashant', '202cb962ac59075b964b07152d234b70', false);  -- password: 123
 
 INSERT INTO questions (question, optionA, optionB, optionC, optionD, correctOption) VALUES
 ('What is the capital of India?', 'Delhi', 'Mumbai', 'Kolkata', 'Chennai', 'Delhi'),
